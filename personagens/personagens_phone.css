@@ -1,0 +1,86 @@
+@media (max-width: 600px) {
+  /* ==== MENU ==== */
+  #menu {
+      flex-direction: column;
+      height: auto;
+      padding: 10px 0;
+      align-items: center;
+  }
+
+  #menu img {
+      height: 10vw;
+      margin-bottom: 3vw;
+      margin-right: 0;
+  }
+
+  .btnMenu {
+      font-size: 2.5vw;
+      padding: 2vw 4vw;
+      margin: 2vw 0;
+  }
+
+  .btnJogar {
+      font-size: 4vw;
+      padding: 2.5vw 6vw;
+      margin-top: 3vw;
+      margin-left: 0;
+  }
+
+  /* ==== SEÇÃO DE CONTEÚDO ==== */
+  .content {
+      padding: 5vw;
+      margin-top: 2vw;
+  }
+
+  .titulo {
+      font-size: 5vw;
+  }
+
+  /* ==== FORMULÁRIO ==== */
+  form {
+      flex-direction: column;
+      gap: 4vw;
+      padding: 4vw;
+  }
+
+  form label {
+      width: 100%;
+      font-size: 2.5vw;
+  }
+
+  form input[type="text"],
+  form select {
+      width: 100%;
+      padding: 3vw;
+      font-size: 4vw;
+      box-sizing: border-box;
+  }
+
+  form input[type="submit"] {
+      width: 100%;
+      padding: 4vw;
+      font-size: 4vw;
+  }
+
+  /* ==== CARDS DE PERSONAGENS ==== */
+  .card-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 5vw;
+  }
+
+  .character-card {
+      width: 60vw;
+      height: auto;
+  }
+
+  .character-card img {
+      height: auto;
+      max-height: 50vw;
+  }
+
+  .character-name {
+      font-size: 4vw;
+      padding: 3vw;
+  }
+}

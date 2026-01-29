@@ -1,0 +1,66 @@
+/* ==== MENU DE NAVEGAÇÃO ==== */
+#menu {
+    background-color: #F5E3C8;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-items: center; /* alinhamento horizontal */
+    padding: 20px;
+}
+
+/* ==== BOTÃO HAMBÚRGUER (visível até 900px) ==== */
+#hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: #2C3E50;
+}
+
+/* ==== CONTAINER DE LINKS DO MENU ==== */
+#menuLinks {
+    display: contents;
+}
+
+/* ==== CONFIGURAÇÕES GERAIS E RESET DE ESTILO ==== */
+* {
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+body {
+    background-color: #2C3E50;
+}
+
+/* ==== BOTÕES DO MENU ==== */
+.btnMenu {
+    text-decoration: none;
+    color: #2C3E50;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* ==== BOTÃO "JOGAR" EM DESTAQUE ==== */
+.btnJogar {
+    background-color: #2C3E50;
+    text-align: center;
+    padding: 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* ==== TÍTULOS E PARÁGRAFOS ==== */
+h1 {
+    color: #F5E3C8;
+}
+
+h2 {
+    color: #F5E3C8;
+}
+
+p {
+    color: #F5E3C8;
+    text-align: justify;
+}

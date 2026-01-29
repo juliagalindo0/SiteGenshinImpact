@@ -1,0 +1,146 @@
+@media (max-width: 900px) {
+    .character-wrapper {
+        padding: 30px;
+        max-width: 95%;
+    }
+
+    .character-header {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        gap: 16px;
+        margin-bottom: 24px;
+    }
+
+    .character-header img {
+        width: 160px;
+    }
+
+    .character-info {
+        flex: 1 1 100%;
+    }
+
+    .character-info h1 {
+        font-size: 22px;
+    }
+
+    .character-title {
+        justify-content: center;
+    }
+
+    .subtitle {
+        font-size: 13px;
+    }
+
+    .badge {
+        font-size: 12px;
+        padding: 5px 10px;
+        margin-right: 6px;
+    }
+
+    .character-stats {
+        margin: 20px 0 30px 0;
+    }
+
+    .character-stats h2,
+    .character-section h2 {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .stat-card {
+        padding: 10px 14px;
+        gap: 10px;
+    }
+
+    .stat-card img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .stat-label {
+        font-size: 14px;
+    }
+
+    .stat-value {
+        font-size: 18px;
+    }
+
+    .stats-title {
+        font-size: 16px;
+        gap: 6px;
+    }
+
+    .stats-title .level {
+        font-size: 13px;
+    }
+
+    .character-section p {
+        font-size: 15px;
+    }
+
+    .weapon-box,
+    .artifact-box {
+        padding: 14px;
+        gap: 14px;
+        flex-direction: column; /* Em tablet, para economizar espaço */
+        align-items: center;
+        text-align: center;
+    }
+
+    .weapon-img,
+    .artifact-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .weapon-name,
+    .artifact-name {
+        font-size: 16px;
+        margin: 0 0 4px;
+    }
+
+    .weapon-stats,
+    .artifact-bonus {
+        font-size: 13px;
+        margin-bottom: 4px;
+    }
+
+    .weapon-passive,
+    .artifact-description {
+        font-size: 13px;
+    }
+
+    .artifact-details {
+        gap: 12px;
+    }
+
+    .main-stats,
+    .sub-stats {
+        padding: 10px;
+        min-width: 180px;
+    }
+
+    .main-stats h4,
+    .sub-stats h4 {
+        font-size: 15px;
+    }
+
+    .main-stats li {
+        font-size: 13px;
+    }
+
+    .substat-tags {
+        gap: 6px;
+    }
+
+    .substat-tags span {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+}

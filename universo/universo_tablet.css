@@ -1,0 +1,33 @@
+@media (max-width: 900px) {
+    #imgHeader {
+        padding: 30px 16px;
+        min-height: 350px;
+    }
+
+    .header-content h1 {
+        font-size: 30px;
+    }
+
+    .header-content p {
+        font-size: 16px;
+    }
+
+    .lista-container {
+        width: 70%;
+        padding: 30px;
+        border-radius: 100px;
+    }
+
+    .conteudo-container h2 {
+        font-size: 24px;
+    }
+
+    .conteudo-container h3 {
+        font-size: 20px;
+    }
+
+    .conteudo-container p,
+    .conteudo-container ul {
+        font-size: 15px;
+    }
+}

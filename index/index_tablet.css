@@ -1,0 +1,49 @@
+/* ================== RESPONSIVO: TABLET / TELAS MÉDIAS (<= 900px) ================== */
+
+@media (max-width: 900px) {
+
+    /* === HEADER === */
+    #header {
+        height: 450px;
+    }
+
+    #imgHeader {
+        width: 97.35%;
+        padding: 30px 3vw;
+        background-position: center;
+    }
+
+    .header-content {
+        max-width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .header-content h1 {
+        font-size: 28px;
+    }
+
+    .header-content p {
+        font-size: 14px;
+        max-width: none;
+    }
+
+    /* === BANNERS === */
+    .banners-container {
+        grid-template-columns: repeat(2, 1fr); /* Reduz para 2 colunas */
+        gap: 15px;
+        padding: 10px 2vw;
+    }
+
+    .banner-card img {
+        height: 220px;
+    }
+
+    .banner-info h3 {
+        font-size: 16px;
+    }
+
+    .banner-info p {
+        font-size: 13px;
+    }
+}

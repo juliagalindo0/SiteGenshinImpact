@@ -1,0 +1,95 @@
+@media (max-width: 600px) {
+  #menu {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+    align-items: center;
+  }
+
+  #menu img {
+    height: 12vw;
+    margin-bottom: 4vw;
+    margin-right: 0;
+  }
+
+  .btnMenu {
+    font-size: 4vw;
+    padding: 2vw 5vw;
+    margin: 3vw 0;
+  }
+
+  .btnJogar {
+    font-size: 4vw;
+    padding: 3vw 6vw;
+    margin-top: 3vw;
+    margin-left: 0;
+  }
+
+  .wrapper {
+    padding: 5vw;
+  }
+
+  .teams-title {
+    font-size: 4vw;
+  }
+
+  form {
+    flex-direction: column;
+    gap: 4vw;
+    padding: 4vw;
+  }
+
+  form label {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2vw;
+    font-size: 3vw;
+  }
+
+  form input[type="text"],
+  form select {
+    width: 100%;
+    font-size: 4vw;
+    padding: 3vw;
+  }
+
+  form input[type="submit"] {
+    width: 100%;
+    padding: 3vw;
+    font-size: 3vw;
+  }
+
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: 4vw;
+  }
+
+  .team-card {
+    padding: 4vw;
+  }
+
+  .team-name {
+    font-size: 3vw;
+    margin-bottom: 3vw;
+  }
+
+  .team-icons {
+    gap: 3vw;
+  }
+
+  .team-icons img {
+    width: 14vw;
+    height: 14vw;
+  }
+
+  .search-box label {
+    font-size: 4.5vw;
+  }
+
+  .search-box input {
+    font-size: 4vw;
+    padding: 2.5vw;
+    width: 90%;
+  }
+}

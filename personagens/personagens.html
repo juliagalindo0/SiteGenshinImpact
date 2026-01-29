@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style_tablet.css"> 
+    <link rel="stylesheet" href="/style_phone.css"> 
+    <link rel="stylesheet" href="personagens.css">
+    <link rel="stylesheet" href="personagens_tablet.css">
+    <link rel="stylesheet" href="personagens_phone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Personagens</title>
+</head>
+<body>
+
+    <!-- ==== MENU DE NAVEGAÇÃO ==== -->
+    <div id="menu">
+        <a href="/index/index.html"><img src="/img/logoGenshin.png" alt="Logo Genshin Impact"></a>
+
+        <!-- Botão Hambúrguer -->
+        <div id="hamburger">☰</div>
+
+        <div id="menuLinks">
+            <a class="btnMenu" href="/universo/universo.html">Universo</a>
+            <a class="btnMenu" href="/personagens/personagens.html">Personagens</a>
+            <a class="btnMenu" href="/times/times.html">Times</a>
+            <a class="btnJogar" href="https://genshin.hoyoverse.com/pt/" target="_blank">Jogue Agora</a>
+        </div>
+    </div>
+
+    <div class="content">
+
+        <h1 class="titulo">Lista de Personagens</h1>
+        <div class="divider"></div>
+
+        <form id="filterForm">
+            <label>
+                Pesquise um nome
+                <input type="text" id="searchInput" placeholder="Digite o nome do personagem...">
+            </label>
+            <label>
+                Elemento
+                <select id="elementFilter">
+                    <option value="todos">Todos</option>
+                    <option value="pyro">Pyro</option>
+                    <option value="hydro">Hydro</option>
+                    <option value="electro">Electro</option>
+                    <option value="anemo">Anemo</option>
+                    <option value="geo">Geo</option>
+                    <option value="dendro">Dendro</option>
+                    <option value="cryo">Cryo</option>
+                </select>
+            </label>
+            <label>
+                Raridade
+                <select id="rarityFilter">
+                    <option value="todas">Todas</option>
+                    <option value="4">4 estrelas</option>
+                    <option value="5">5 estrelas</option>
+                </select>
+            </label>
+            <label>
+                Tipo de arma
+                <select id="weaponFilter">
+                    <option value="todas">Todas</option>
+                    <option value="espada">Espada</option>
+                    <option value="arco">Arco</option>
+                    <option value="lança">Lança</option>
+                    <option value="catalisador">Catalisador</option>
+                    <option value="claymore">Claymore</option>
+                </select>
+            </label>
+            <input type="submit" value="Buscar">
+        </form>
+
+        <div class="divider"></div>
+
+        <div id="characterGrid" class="card-container">
+            <p>Carregando personagens...</p>
+        </div>
+
+    </div> 
+    <script src="/menu.js"></script> 
+    <script src="/js/lista_personagens.js"></script> 
+</body>
+</html>

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "kinich-varesa-banner",
+    "imagem": "/img/banner1.jpg",
+    "titulo": "Cornucopia of Contention - Varesa Banner",
+    "data": "5/27/2025 - 6/17/2025"
+  },
+  {
+    "id": "raiden-xianyun-banner",
+    "imagem": "/img/banner2.jpg",
+    "titulo": "The Crane Soars Skyward - Xianyun Banner",
+    "data": "5/27/2025 - 6/17/2025"
+  },
+  {
+    "id": "epitome-invocation-weapon-banner",
+    "imagem": "/img/banner3.webp",
+    "titulo": "Epitome Invocation - Weapon Banner",
+    "data": "5/27/2025 - 6/17/2025"
+  }
+]

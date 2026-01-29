@@ -1,0 +1,50 @@
+@media (max-width: 900px) {
+    #menu {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "logo hamburger"
+            "links links";
+        padding: 15px;
+        row-gap: 10px;
+        justify-items: stretch;
+    }
+
+    #menu a:first-child {
+        grid-area: logo;
+        text-align: center;
+        width: 100%;
+    }
+
+    #menu img {
+        width: 80%;
+        max-width: 150px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    #hamburger {
+        display: block;
+        grid-area: hamburger;
+        text-align: right;
+        padding: 10px;
+    }
+
+    #menuLinks {
+        grid-area: links;
+        display: none; /* escondido por padrão */
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #menuLinks.show {
+        display: flex;
+    }
+
+    #menuLinks a {
+        font-size: 14px;
+        padding: 10px;
+        justify-self: stretch;
+        text-align: center;
+        width: 100%;
+    }
+}

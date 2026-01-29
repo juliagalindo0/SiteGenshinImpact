@@ -1,0 +1,107 @@
+/* ================== GERAL ================== */
+
+h2 {
+    color: white;
+}
+
+.bannerTexto p {
+    color: white;
+}
+
+/* ================== HEADER ================== */
+
+#header {
+    display: grid;
+    height: 550px;
+}
+
+#imgHeader {
+    background-image: 
+        linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0.9), rgba(0,0,0,0.6), rgba(0,0,0,0.1)),
+        url(/img/homepage.jpg);
+    width: 97.35%;
+    height: 100%;
+    background-size: cover;
+    background-position: top;
+    color: white;
+    display: flex;
+    align-items: center;         /* Alinha verticalmente */
+    justify-content: flex-start; /* Alinha à esquerda */
+    padding: 40px 20px;          /* Espaçamento interno */
+}
+
+/* === Conteúdo textual dentro do Header === */
+
+.header-content {
+    max-width: 450px;      /* Limita a largura do texto */
+    width: 100%;           /* Responsivo */
+    text-align: left;      /* Alinhamento do texto */
+}
+
+.header-content h1 {
+    font-size: 30px;
+    margin: 0 0 10px 0;
+}
+
+.header-content p {
+    font-size: 15px;
+    line-height: 2.0;
+    max-width: 350px;
+}
+
+/* ================== CONTEÚDO PRINCIPAL ================== */
+
+#content {
+    margin-top: 50px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;  /* Elementos empilhados */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    text-align: center;
+}
+
+/* ================== BANNERS ================== */
+
+.banners-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas iguais */
+    gap: 20px;      /* Espaço entre os cards */
+    padding: 15px;
+}
+
+.banner-card {
+    background-color: #0a0a23;
+    border-radius: 20px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.banner-card:hover {
+    transform: scale(1.02); /* Efeito ao passar o mouse */
+}
+
+.banner-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.banner-info {
+    padding: 10px;
+}
+
+.banner-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.banner-info p {
+    font-size: 14px;
+    color: white;
+}
+
+

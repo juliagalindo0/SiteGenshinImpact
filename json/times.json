@@ -1,0 +1,62 @@
+[
+  {
+    "id": "albedo-team",
+    "nomeTime": "Melhor time para o Albedo",
+    "personagens": [
+      { "nome": "Itto", "icone": "/img/icon/ittoicon.webp" },
+      { "nome": "Albedo", "icone": "/img/icon/albedoicon.webp" },
+      { "nome": "Gorou", "icone": "/img/icon/gorouicon.webp" },
+      { "nome": "Zhongli", "icone": "/img/icon/zhongliicon.webp" }
+    ]
+  },
+  {
+    "id": "alhaitham-team",
+    "nomeTime": "Melhor time para o Alhaitham",
+    "personagens": [
+      { "nome": "Alhaitham", "icone": "/img/icon/alhaithamicon.webp" },
+      { "nome": "Nahida", "icone": "/img/icon/nahidaicon.webp" },
+      { "nome": "Xingqiu", "icone": "/img/icon/xingqiuicon.webp" },
+      { "nome": "Kuki", "icone": "/img/icon/kukiicon.webp" }
+    ]
+  },
+  {
+    "id": "baizhu-team",
+    "nomeTime": "Melhor time para o Baizhu",
+    "personagens": [
+      { "nome": "Cyno", "icone": "/img/icon/cynoicon.webp" },
+      { "nome": "Nahida", "icone": "/img/icon/nahidaicon.webp" },
+      { "nome": "Yelan", "icone": "/img/icon/yelanicon.webp" },
+      { "nome": "Baizhu", "icone": "/img/icon/baizhuicon.webp" }
+    ]
+  },
+  {
+    "id": "bennett-team",
+    "nomeTime": "Melhor time para o Bennett",
+    "personagens": [
+      { "nome": "Tartaglia", "icone": "/img/icon/tartagliaicon.webp" },
+      { "nome": "Xingqiu", "icone": "/img/icon/xingqiuicon.webp" },
+      { "nome": "Kazuha", "icone": "/img/icon/kazuhaicon.webp" },
+      { "nome": "Bennett", "icone": "/img/icon/benneticon.webp" }
+    ]
+  },
+  {
+    "id": "candace-team",
+    "nomeTime": "Melhor time para a Candace",
+    "personagens": [
+      { "nome": "Zhongli", "icone": "/img/icon/zhongliicon.webp" },
+      { "nome": "Candace", "icone": "/img/icon/candaceicon.webp" },
+      { "nome": "Yelan", "icone": "/img/icon/yelanicon.webp" },
+      { "nome": "Xingqiu", "icone": "/img/icon/xingqiuicon.webp" }
+    ]
+  },
+  {
+    "id": "cyno-team",
+    "nomeTime": "Melhor time para o Cyno",
+    "personagens": [
+      { "nome": "Cyno", "icone": "/img/icon/cynoicon.webp" },
+      { "nome": "Beidou", "icone": "/img/icon/beidouicon.webp" },
+      { "nome": "Yelan", "icone": "/img/icon/yelanicon.webp" },
+      { "nome": "Xingqiu", "icone": "/img/icon/xingqiuicon.webp" }
+    ]
+  }
+]

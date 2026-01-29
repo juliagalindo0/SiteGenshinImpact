@@ -1,0 +1,506 @@
+[
+  {
+    "id": "albedo",
+    "nome": "ALBEDO",
+    "estrelas": "5",
+    "titulo": "Um gênio conhecido como Príncipe do Giz, ele é o Chefe Alquimista e Capitão da Equipe de Investigação dos Cavaleiros de Favonius.",
+    "imagem": "/img/personagens/albedo.webp",
+    "armaTipo": "ESPADA",
+    "elemento": "GEO",
+    "estatisticasBasicas": {
+      "nivel": 90,
+      "vida": 13226,
+      "ataque": 251,
+      "defesa": 876,
+      "bonusElemento": "28.8%"
+    },
+    "melhorArma": {
+      "nome": "Canção da Patrulha do Pico",
+      "estrelas": "5",
+      "nivel": 90,
+      "ataque": 542,
+      "substatus": "DEF: 82.7%",
+      "passiva": "Quando um Ataque Normal ou Imersivo atinge um inimigo, obtém \"Canção de Glória\": aumenta DEF em 16% e obtém 20% de bônus de Dano de todos os Elementos por 6s e acumula até 2 vezes. Esse efeito pode ser desencadeado uma vez a cada 0.3s.",
+      "imagem": "/img/armas/albedoArma.webp"
+    },
+    "melhorArtefato": {
+      "nome": "Casca de Sonhos Opulentos",
+      "bonus2Pecas": "DEF +30%",
+      "descricaoCompleta": "Ganha 1 carga após atingir um inimigo com ataque Geo (1 vez a cada 0.3s). Fora de combate, ganha 1 carga a cada 3s. Máximo de 4 cargas, cada uma aumentando DEF e Dano Geo em 6%. Quando não houver mais acúmulos, perde 1 carga a cada 6s.",
+      "imagem": "/img/artefatos/albedoArtefato.webp",
+      "statusPrincipais": {
+        "ampulheta": "DEF %",
+        "calice": "Bônus de Dano Geo",
+        "tiara": "Taxa Crítica / Dano Crítico"
+      },
+      "substatusRecomendados": [
+        "Taxa Crítica",
+        "Dano Crítico",
+        "DEF %",
+        "Recarga de Energia"
+      ]
+    }
+  },
+  {
+    "id": "alhaitham",
+    "nome": "ALHAITHAM",
+    "estrelas": "5",
+    "titulo": "O atual escriba da Sumeru Akademiya, um homem dotado de inteligência e talento extraordinários. Ele vive livre – pelo menos, livre dos olhos curiosos das pessoas comuns.",
+    "imagem": "/img/personagens/alhaitham.webp",
+    "armaTipo": "ESPADA",
+    "elemento": "DENDRO",
+    "estatisticasBasicas": {
+      "nivel": 90,
+      "vida": 13348,
+      "ataque": 313,
+      "defesa": 782,
+      "bonusElemento": "28.8%"
+    },
+    "melhorArma": {
+      "nome": "Luz das Folhas Cortadas",
+      "estrelas": "5",
+      "nivel": 90,
+      "ataque": 542,
+      "substatus": "DEF: 82.7%",
+      "passiva": "Aumenta a Taxa CRIT em 8%; quando o Ataque Normal causa Dano elemental, obtém o efeito \"Poda\": aumenta o Dano causado pelos Ataques Normais e pela Habilidade Elemental. O aumento de Dano é equivalente a 240% da Proficiência Elemental. Este efeito desaparecerá depois de ser ativado 28 vezes ou após 12s.",
+      "imagem": "/img/armas/alhaithamArma.webp"
+    },
+    "melhorArtefato": {
+      "nome": "Sonhos Dourados",
+      "bonus2Pecas": "DEF +30%",
+      "descricaoCompleta": "Dentro de 8s após causar uma Reação Elemental, o personagem equipando este conjunto irá obter aprimoramentos baseados no Tipo Elemental dos outros membros da equipe.",
+      "imagem": "/img/artefatos/alhaithamArtefato.webp",
+      "statusPrincipais": {
+        "ampulheta": "DEF %",
+        "calice": "Bônus de Dano Geo",
+        "tiara": "Taxa Crítica / Dano Crítico"
+      },
+      "substatusRecomendados": [
+        "Taxa Crítica",
+        "Dano Crítico",
+        "DEF %",
+        "Recarga de Energia"
+      ]
+    }
+  },
+  {
+    "id": "andarilho",
+    "nome": "ANDARILHO",
+    "estrelas": "5",
+    "titulo": "Uma figura viajante cuja identidade é um mistério. Ele se veste como um asceta da montanha, mas certamente não representa esse papel.",
+    "imagem": "/img/personagens/andarilho.webp",
+    "armaTipo": "CATALISADOR",
+    "elemento": "ANEMO",
+    "estatisticasBasicas": {
+      "nivel": 90,
+      "vida": 13226,
+      "ataque": 251,
+      "defesa": 876,
+      "bonusElemento": "28.8%"
+    },
+    "melhorArma": {
+      "nome": "Reminiscências de Tulaytullah",
+      "estrelas": "5",
+      "nivel": 90,
+      "ataque": 542,
+      "substatus": "DEF: 82.7%",
+      "passiva": "Aumenta a Vel. do Ataque Normal em 20%. Nos 14s após lançar a Habilidade Elemental: o Dano causado por Ataques Normais aumenta em 9.6% a cada segundo; ao atingir os oponentes com um Ataque Normal, o Dano causado pelo Ataque Normal aumentará em 19.2%.",
+      "imagem": "/img/armas/andarilhoArma.webp"
+    },
+    "melhorArtefato": {
+      "nome": "Casca de Sonhos Opulentos",
+      "bonus2Pecas": "DEF +30%",
+      "descricaoCompleta": "Ganha 1 carga após atingir um inimigo com ataque Geo (1 vez a cada 0.3s). Fora de combate, ganha 1 carga a cada 3s. Máximo de 4 cargas, cada uma aumentando DEF e Dano Geo em 6%. Quando não houver mais acúmulos, perde 1 carga a cada 6s.",
+      "imagem": "/img/artefatos/albedoArtefato.webp",
+      "statusPrincipais": {
+        "ampulheta": "DEF %",
+        "calice": "Bônus de Dano Geo",
+        "tiara": "Taxa Crítica / Dano Crítico"
+      },
+      "substatusRecomendados": [
+        "Taxa Crítica",
+        "Dano Crítico",
+        "DEF %",
+        "Recarga de Energia"
+      ]
+    }
+  },
+  {
+    "id": "itto",
+    "nome": "ITTO",
+    "estrelas": "5",
+    "titulo": "Um gênio conhecido como Príncipe do Giz, ele é o Chefe Alquimista e Capitão da Equipe de Investigação dos Cavaleiros de Favonius.",
+    "imagem": "/img/personagens/itto.webp",
+    "armaTipo": "ESPADA",
+    "elemento": "GEO",
+    "estatisticasBasicas": {
+      "nivel": 90,
+      "vida": 13226,
+      "ataque": 251,
+      "defesa": 876,
+      "bonusElemento": "28.8%"
+    },
+    "melhorArma": {
+      "nome": "Canção da Patrulha do Pico",
+      "estrelas": "5",
+      "nivel": 90,
+      "ataque": 542,
+      "substatus": "DEF: 82.7%",
+      "passiva": "Quando um Ataque Normal ou Imersivo atinge um inimigo, obtém \"Canção de Glória\": aumenta DEF em 16% e obtém 20% de bônus de Dano de todos os Elementos por 6s e acumula até 2 vezes. Esse efeito pode ser desencadeado uma vez a cada 0.3s.",
+      "imagem": "/img/armas/albedoArma.webp"
+    },
+    "melhorArtefato": {
+      "nome": "Casca de Sonhos Opulentos",
+      "bonus2Pecas": "DEF +30%",
+      "descricaoCompleta": "Ganha 1 carga após atingir um inimigo com ataque Geo (1 vez a cada 0.3s). Fora de combate, ganha 1 carga a cada 3s. Máximo de 4 cargas, cada uma aumentando DEF e Dano Geo em 6%. Quando não houver mais acúmulos, perde 1 carga a cada 6s.",
+      "imagem": "/img/artefatos/albedoArtefato.webp",
+      "statusPrincipais": {
+        "ampulheta": "DEF %",
+        "calice": "Bônus de Dano Geo",
+        "tiara": "Taxa Crítica / Dano Crítico"
+      },
+      "substatusRecomendados": [
+        "Taxa Crítica",
+        "Dano Crítico",
+        "DEF %",
+        "Recarga de Energia"
+      ]
+    }
+  },
+  {
+    "id": "baizhu",
+    "nome": "BAIZHU",
+    "estrelas": "5",
+    "titulo": "Um gênio conhecido como Príncipe do Giz, ele é o Chefe Alquimista e Capitão da Equipe de Investigação dos Cavaleiros de Favonius.",
+    "imagem": "/img/personagens/baizhu.png",
+    "armaTipo": "ESPADA",
+    "elemento": "GEO",
+    "estatisticasBasicas": {
+      "nivel": 90,
+      "vida": 13226,
+      "ataque": 251,
+      "defesa": 876,
+      "bonusElemento": "28.8%"
+    },
+    "melhorArma": {
+      "nome": "Canção da Patrulha do Pico",
+      "estrelas": "5",
+      "nivel": 90,
+      "ataque": 542,
+      "substatus": "DEF: 82.7%",
+      "passiva": "Quando um Ataque Normal ou Imersivo atinge um inimigo, obtém \"Canção de Glória\": aumenta DEF em 16% e obtém 20% de bônus de Dano de todos os Elementos por 6s e acumula até 2 vezes. Esse efeito pode ser desencadeado uma vez a cada 0.3s.",
+      "imagem": "/img/armas/albedoArma.webp"
+    },
+    "melhorArtefato": {
+      "nome": "Casca de Sonhos Opulentos",
+      "bonus2Pecas": "DEF +30%",
+      "descricaoCompleta": "Ganha 1 carga após atingir um inimigo com ataque Geo (1 vez a cada 0.3s). Fora de combate, ganha 1 carga a cada 3s. Máximo de 4 cargas, cada uma aumentando DEF e Dano Geo em 6%. Quando não houver mais acúmulos, perde 1 carga a cada 6s.",
+      "imagem": "/img/artefatos/albedoArtefato.webp",
+      "statusPrincipais": {
+        "ampulheta": "DEF %",
+        "calice": "Bônus de Dano Geo",
+        "tiara": "Taxa Crítica / Dano Crítico"
+      },
+      "substatusRecomendados": [
+        "Taxa Crítica",
+        "Dano Crítico",
+        "DEF %",
+        "Recarga de Energia"
+      ]
+    }
+  },
+  {
+    "id": "barbara",
+    "nome": "BARBARA",
+    "estrelas": "5",
+    "titulo": "Um gênio conhecido como Príncipe do Giz, ele é o Chefe Alquimista e Capitão da Equipe de Investigação dos Cavaleiros de Favonius.",
+    "imagem": "/img/personagens/barbara.webp",
+    "armaTipo": "ESPADA",
+    "elemento": "GEO",
+    "estatisticasBasicas": {
+      "nivel": 90,
+      "vida": 13226,
+      "ataque": 251,
+      "defesa": 876,
+      "bonusElemento": "28.8%"
+    },
+    "melhorArma": {
+      "nome": "Canção da Patrulha do Pico",
+      "estrelas": "5",
+      "nivel": 90,
+      "ataque": 542,
+      "substatus": "DEF: 82.7%",
+      "passiva": "Quando um Ataque Normal ou Imersivo atinge um inimigo, obtém \"Canção de Glória\": aumenta DEF em 16% e obtém 20% de bônus de Dano de todos os Elementos por 6s e acumula até 2 vezes. Esse efeito pode ser desencadeado uma vez a cada 0.3s.",
+      "imagem": "/img/armas/albedoArma.webp"
+    },
+    "melhorArtefato": {
+      "nome": "Casca de Sonhos Opulentos",
+      "bonus2Pecas": "DEF +30%",
+      "descricaoCompleta": "Ganha 1 carga após atingir um inimigo com ataque Geo (1 vez a cada 0.3s). Fora de combate, ganha 1 carga a cada 3s. Máximo de 4 cargas, cada uma aumentando DEF e Dano Geo em 6%. Quando não houver mais acúmulos, perde 1 carga a cada 6s.",
+      "imagem": "/img/artefatos/albedoArtefato.webp",
+      "statusPrincipais": {
+        "ampulheta": "DEF %",
+        "calice": "Bônus de Dano Geo",
+        "tiara": "Taxa Crítica / Dano Crítico"
+      },
+      "substatusRecomendados": [
+        "Taxa Crítica",
+        "Dano Crítico",
+        "DEF %",
+        "Recarga de Energia"
+      ]
+    }
+  },
+  {
+    "id": "beidou",
+    "nome": "BEIDOU",
+    "estrelas": "5",
+    "titulo": "Um gênio conhecido como Príncipe do Giz, ele é o Chefe Alquimista e Capitão da Equipe de Investigação dos Cavaleiros de Favonius.",
+    "imagem": "/img/personagens/beidou.webp",
+    "armaTipo": "ESPADA",
+    "elemento": "GEO",
+    "estatisticasBasicas": {
+      "nivel": 90,
+      "vida": 13226,
+      "ataque": 251,
+      "defesa": 876,
+      "bonusElemento": "28.8%"
+    },
+    "melhorArma": {
+      "nome": "Canção da Patrulha do Pico",
+      "estrelas": "5",
+      "nivel": 90,
+      "ataque": 542,
+      "substatus": "DEF: 82.7%",
+      "passiva": "Quando um Ataque Normal ou Imersivo atinge um inimigo, obtém \"Canção de Glória\": aumenta DEF em 16% e obtém 20% de bônus de Dano de todos os Elementos por 6s e acumula até 2 vezes. Esse efeito pode ser desencadeado uma vez a cada 0.3s.",
+      "imagem": "/img/armas/albedoArma.webp"
+    },
+    "melhorArtefato": {
+      "nome": "Casca de Sonhos Opulentos",
+      "bonus2Pecas": "DEF +30%",
+      "descricaoCompleta": "Ganha 1 carga após atingir um inimigo com ataque Geo (1 vez a cada 0.3s). Fora de combate, ganha 1 carga a cada 3s. Máximo de 4 cargas, cada uma aumentando DEF e Dano Geo em 6%. Quando não houver mais acúmulos, perde 1 carga a cada 6s.",
+      "imagem": "/img/artefatos/albedoArtefato.webp",
+      "statusPrincipais": {
+        "ampulheta": "DEF %",
+        "calice": "Bônus de Dano Geo",
+        "tiara": "Taxa Crítica / Dano Crítico"
+      },
+      "substatusRecomendados": [
+        "Taxa Crítica",
+        "Dano Crítico",
+        "DEF %",
+        "Recarga de Energia"
+      ]
+    }
+  },
+  {
+    "id": "bennett",
+    "nome": "BENNET",
+    "estrelas": "5",
+    "titulo": "Um gênio conhecido como Príncipe do Giz, ele é o Chefe Alquimista e Capitão da Equipe de Investigação dos Cavaleiros de Favonius.",
+    "imagem": "/img/personagens/bennet.webp",
+    "armaTipo": "ESPADA",
+    "elemento": "GEO",
+    "estatisticasBasicas": {
+      "nivel": 90,
+      "vida": 13226,
+      "ataque": 251,
+      "defesa": 876,
+      "bonusElemento": "28.8%"
+    },
+    "melhorArma": {
+      "nome": "Canção da Patrulha do Pico",
+      "estrelas": "5",
+      "nivel": 90,
+      "ataque": 542,
+      "substatus": "DEF: 82.7%",
+      "passiva": "Quando um Ataque Normal ou Imersivo atinge um inimigo, obtém \"Canção de Glória\": aumenta DEF em 16% e obtém 20% de bônus de Dano de todos os Elementos por 6s e acumula até 2 vezes. Esse efeito pode ser desencadeado uma vez a cada 0.3s.",
+      "imagem": "/img/armas/albedoArma.webp"
+    },
+    "melhorArtefato": {
+      "nome": "Casca de Sonhos Opulentos",
+      "bonus2Pecas": "DEF +30%",
+      "descricaoCompleta": "Ganha 1 carga após atingir um inimigo com ataque Geo (1 vez a cada 0.3s). Fora de combate, ganha 1 carga a cada 3s. Máximo de 4 cargas, cada uma aumentando DEF e Dano Geo em 6%. Quando não houver mais acúmulos, perde 1 carga a cada 6s.",
+      "imagem": "/img/artefatos/albedoArtefato.webp",
+      "statusPrincipais": {
+        "ampulheta": "DEF %",
+        "calice": "Bônus de Dano Geo",
+        "tiara": "Taxa Crítica / Dano Crítico"
+      },
+      "substatusRecomendados": [
+        "Taxa Crítica",
+        "Dano Crítico",
+        "DEF %",
+        "Recarga de Energia"
+      ]
+    }
+  },
+  {
+    "id": "charlotte",
+    "nome": "CHARLOTTE",
+    "estrelas": "5",
+    "titulo": "Um gênio conhecido como Príncipe do Giz, ele é o Chefe Alquimista e Capitão da Equipe de Investigação dos Cavaleiros de Favonius.",
+    "imagem": "/img/personagens/charlotte.webp",
+    "armaTipo": "ESPADA",
+    "elemento": "GEO",
+    "estatisticasBasicas": {
+      "nivel": 90,
+      "vida": 13226,
+      "ataque": 251,
+      "defesa": 876,
+      "bonusElemento": "28.8%"
+    },
+    "melhorArma": {
+      "nome": "Canção da Patrulha do Pico",
+      "estrelas": "5",
+      "nivel": 90,
+      "ataque": 542,
+      "substatus": "DEF: 82.7%",
+      "passiva": "Quando um Ataque Normal ou Imersivo atinge um inimigo, obtém \"Canção de Glória\": aumenta DEF em 16% e obtém 20% de bônus de Dano de todos os Elementos por 6s e acumula até 2 vezes. Esse efeito pode ser desencadeado uma vez a cada 0.3s.",
+      "imagem": "/img/armas/albedoArma.webp"
+    },
+    "melhorArtefato": {
+      "nome": "Casca de Sonhos Opulentos",
+      "bonus2Pecas": "DEF +30%",
+      "descricaoCompleta": "Ganha 1 carga após atingir um inimigo com ataque Geo (1 vez a cada 0.3s). Fora de combate, ganha 1 carga a cada 3s. Máximo de 4 cargas, cada uma aumentando DEF e Dano Geo em 6%. Quando não houver mais acúmulos, perde 1 carga a cada 6s.",
+      "imagem": "/img/artefatos/albedoArtefato.webp",
+      "statusPrincipais": {
+        "ampulheta": "DEF %",
+        "calice": "Bônus de Dano Geo",
+        "tiara": "Taxa Crítica / Dano Crítico"
+      },
+      "substatusRecomendados": [
+        "Taxa Crítica",
+        "Dano Crítico",
+        "DEF %",
+        "Recarga de Energia"
+      ]
+    }
+  },
+  {
+    "id": "chongyun",
+    "nome": "CHONGYUN",
+    "estrelas": "5",
+    "titulo": "Um gênio conhecido como Príncipe do Giz, ele é o Chefe Alquimista e Capitão da Equipe de Investigação dos Cavaleiros de Favonius.",
+    "imagem": "/img/personagens/chong.webp",
+    "armaTipo": "ESPADA",
+    "elemento": "GEO",
+    "estatisticasBasicas": {
+      "nivel": 90,
+      "vida": 13226,
+      "ataque": 251,
+      "defesa": 876,
+      "bonusElemento": "28.8%"
+    },
+    "melhorArma": {
+      "nome": "Canção da Patrulha do Pico",
+      "estrelas": "5",
+      "nivel": 90,
+      "ataque": 542,
+      "substatus": "DEF: 82.7%",
+      "passiva": "Quando um Ataque Normal ou Imersivo atinge um inimigo, obtém \"Canção de Glória\": aumenta DEF em 16% e obtém 20% de bônus de Dano de todos os Elementos por 6s e acumula até 2 vezes. Esse efeito pode ser desencadeado uma vez a cada 0.3s.",
+      "imagem": "/img/armas/albedoArma.webp"
+    },
+    "melhorArtefato": {
+      "nome": "Casca de Sonhos Opulentos",
+      "bonus2Pecas": "DEF +30%",
+      "descricaoCompleta": "Ganha 1 carga após atingir um inimigo com ataque Geo (1 vez a cada 0.3s). Fora de combate, ganha 1 carga a cada 3s. Máximo de 4 cargas, cada uma aumentando DEF e Dano Geo em 6%. Quando não houver mais acúmulos, perde 1 carga a cada 6s.",
+      "imagem": "/img/artefatos/albedoArtefato.webp",
+      "statusPrincipais": {
+        "ampulheta": "DEF %",
+        "calice": "Bônus de Dano Geo",
+        "tiara": "Taxa Crítica / Dano Crítico"
+      },
+      "substatusRecomendados": [
+        "Taxa Crítica",
+        "Dano Crítico",
+        "DEF %",
+        "Recarga de Energia"
+      ]
+    }
+  },
+  {
+    "id": "citlali",
+    "nome": "CITLALI",
+    "estrelas": "5",
+    "titulo": "Um gênio conhecido como Príncipe do Giz, ele é o Chefe Alquimista e Capitão da Equipe de Investigação dos Cavaleiros de Favonius.",
+    "imagem": "/img/personagens/citlali.webp",
+    "armaTipo": "ESPADA",
+    "elemento": "GEO",
+    "estatisticasBasicas": {
+      "nivel": 90,
+      "vida": 13226,
+      "ataque": 251,
+      "defesa": 876,
+      "bonusElemento": "28.8%"
+    },
+    "melhorArma": {
+      "nome": "Canção da Patrulha do Pico",
+      "estrelas": "5",
+      "nivel": 90,
+      "ataque": 542,
+      "substatus": "DEF: 82.7%",
+      "passiva": "Quando um Ataque Normal ou Imersivo atinge um inimigo, obtém \"Canção de Glória\": aumenta DEF em 16% e obtém 20% de bônus de Dano de todos os Elementos por 6s e acumula até 2 vezes. Esse efeito pode ser desencadeado uma vez a cada 0.3s.",
+      "imagem": "/img/armas/albedoArma.webp"
+    },
+    "melhorArtefato": {
+      "nome": "Casca de Sonhos Opulentos",
+      "bonus2Pecas": "DEF +30%",
+      "descricaoCompleta": "Ganha 1 carga após atingir um inimigo com ataque Geo (1 vez a cada 0.3s). Fora de combate, ganha 1 carga a cada 3s. Máximo de 4 cargas, cada uma aumentando DEF e Dano Geo em 6%. Quando não houver mais acúmulos, perde 1 carga a cada 6s.",
+      "imagem": "/img/artefatos/albedoArtefato.webp",
+      "statusPrincipais": {
+        "ampulheta": "DEF %",
+        "calice": "Bônus de Dano Geo",
+        "tiara": "Taxa Crítica / Dano Crítico"
+      },
+      "substatusRecomendados": [
+        "Taxa Crítica",
+        "Dano Crítico",
+        "DEF %",
+        "Recarga de Energia"
+      ]
+    }
+  },
+  {
+    "id": "collei",
+    "nome": "COLLEI",
+    "estrelas": "5",
+    "titulo": "Um gênio conhecido como Príncipe do Giz, ele é o Chefe Alquimista e Capitão da Equipe de Investigação dos Cavaleiros de Favonius.",
+    "imagem": "/img/personagens/collei.webp",
+    "armaTipo": "ESPADA",
+    "elemento": "GEO",
+    "estatisticasBasicas": {
+      "nivel": 90,
+      "vida": 13226,
+      "ataque": 251,
+      "defesa": 876,
+      "bonusElemento": "28.8%"
+    },
+    "melhorArma": {
+      "nome": "Canção da Patrulha do Pico",
+      "estrelas": "5",
+      "nivel": 90,
+      "ataque": 542,
+      "substatus": "DEF: 82.7%",
+      "passiva": "Quando um Ataque Normal ou Imersivo atinge um inimigo, obtém \"Canção de Glória\": aumenta DEF em 16% e obtém 20% de bônus de Dano de todos os Elementos por 6s e acumula até 2 vezes. Esse efeito pode ser desencadeado uma vez a cada 0.3s.",
+      "imagem": "/img/armas/albedoArma.webp"
+    },
+    "melhorArtefato": {
+      "nome": "Casca de Sonhos Opulentos",
+      "bonus2Pecas": "DEF +30%",
+      "descricaoCompleta": "Ganha 1 carga após atingir um inimigo com ataque Geo (1 vez a cada 0.3s). Fora de combate, ganha 1 carga a cada 3s. Máximo de 4 cargas, cada uma aumentando DEF e Dano Geo em 6%. Quando não houver mais acúmulos, perde 1 carga a cada 6s.",
+      "imagem": "/img/artefatos/albedoArtefato.webp",
+      "statusPrincipais": {
+        "ampulheta": "DEF %",
+        "calice": "Bônus de Dano Geo",
+        "tiara": "Taxa Crítica / Dano Crítico"
+      },
+      "substatusRecomendados": [
+        "Taxa Crítica",
+        "Dano Crítico",
+        "DEF %",
+        "Recarga de Energia"
+      ]
+    }
+  }
+]

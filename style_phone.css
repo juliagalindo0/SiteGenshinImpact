@@ -1,0 +1,22 @@
+@media (max-width: 600px) {
+    #menu {
+        padding: 3vw;
+    }
+
+    #menu img {
+        width: 70%;
+        max-width: 50vw;
+        height: auto;
+    }
+
+    #menuLinks a {
+        font-size: 2.5vw;
+        padding: 2vw;
+        margin-bottom: 1.2vw;
+    }
+
+    #hamburger {
+        font-size: 7vw;
+        padding: 2vw;
+    }
+}
